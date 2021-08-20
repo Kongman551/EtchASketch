@@ -1,0 +1,98 @@
+body {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    background-image: url(/images/woodBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: inherit;
+}
+
+.canvas {
+    display: flex;
+    justify-content: center;
+}
+
+#button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    height: 50%;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.btns {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 1.5em;
+    padding: 10px;
+    background-color: red;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    min-width: 80px;
+    -webkit-appearance: none;
+}
+
+#selector {
+    border: 0;
+    background: none;
+    padding: 0;
+    display: none;
+}
+
+#container {
+    height: 60vh;
+    width: 60vh;
+    padding: 60px;
+    background-color: red;
+    border: 3px outset darkred;
+    border-radius: 25px;
+    display: grid;
+    position: relative;
+}
+
+.square-item {
+    background-color: gray;
+}
+
+#slider {
+    -webkit-appearance: none;
+    background: red;
+    border: 2px outset darkred;
+    border-radius: 20px;
+}
+
+#slider::-moz-range-thumb {
+    background: gold;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    border-color: goldenrod;
+    border-radius: 20px;
+
+}
+
+.on {
+    border-width: 3px;
+    color: gold;
+    font-weight: bolder;
+}
+
+#val{
+    color: gold;
+}
+
+#logo {
+    position: absolute;
+    bottom: 10;
+    left: 38%;
+    height: 6%;
+    width: 25%;
+}

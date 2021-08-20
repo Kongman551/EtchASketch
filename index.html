@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title id="title">Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1 id="heading">Etch-a-Sketch</h1>
+    </header>
+
+    <div class="canvas">
+        <div id="button-container">
+            <button class="btns" id="reset">Reset</button>
+            <button class="btns" id="rainbow">Rainbow</button>
+            <button class="btns on" id="black">Black</button>
+            <button class="btns" id="color">Color <input type="color" id="selector"></button>
+            <button class="btns" id="erase">Eraser</button>
+            <label for="slider">Size(between 2 and 100):</label>
+            <input type="range" id="slider" name="slider" min="2" max="100">
+            <p id="val"></p>
+
+        </div>
+
+        <div id="container">
+            <img id="logo" src="images/EtchASketchLogo.png">
+        </div>
+    </div>
+
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
