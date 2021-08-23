@@ -38,6 +38,11 @@ h1 {
     margin-bottom: 40px;
     min-width: 80px;
     -webkit-appearance: none;
+    transition: all .2s ease-in-out;
+}
+
+.btns:hover{
+    transform: scale(1.1);
 }
 
 #selector {
@@ -95,4 +100,15 @@ h1 {
     left: 38%;
     height: 6%;
     width: 25%;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+}
+#gh-logo{
+    height: 30px;
+    background-color:white;
+    border-radius: 25px;
 }
